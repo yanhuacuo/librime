@@ -9,3 +9,4 @@ jobs:
     uses: ./.github/workflows/windows-build.yml
     with:
       rime_plugins: hchunhui/librime-lua
+
