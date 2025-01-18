@@ -3,11 +3,7 @@ name: Release CI
 on:
   push:
     branches:
-      - master
-    tags:
-      - '[0-9]+.*'
-  workflow_dispatch:
-
+      - '*'
 jobs:
   linux:
     uses: ./.github/workflows/linux-build.yml
